@@ -1,0 +1,159 @@
+.third {
+  padding: 150px 0;
+  background-color: var(--bg-black);
+  color: var(--clr-white);
+}
+
+.third__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.third__item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.third__item-left {
+  max-width: 486px;
+}
+
+.third__item-heading {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--clr-white);
+}
+
+.third__item-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--clr-white);
+}
+
+.third__item-text {
+  margin-top: 23px;
+  margin-bottom: 30px;
+}
+
+.third__item--text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--clr-white);
+}
+
+.img__first {
+  width: 540px;
+  height: 470px;
+}
+
+.img__second {
+  width: 540px;
+  height: 500px;
+}
+.img__third {
+  width: 540px;
+  height: 450px;
+}
+
+.support__item {
+  display: flex;
+  align-items: center;
+}
+
+.support__item img {
+  margin-right: 20px;
+}
+
+@media only screen and(max-width:1000px) {
+  .third__item-right {
+    width: 440px;
+    height: 370px;
+  }
+
+  .third__item-left {
+    width: 400px;
+  }
+
+  .third__item--heading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and(max-width:880px) {
+  .third {
+    padding: 100px 0 50px 67px;
+  }
+
+  .third__item {
+    margin-bottom: 70px;
+  }
+
+  .third__item-left {
+    margin-top: 30px;
+  }
+
+  .third__item-title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .third__item-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and(max-width:760px) {
+  .third__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+  }
+
+  .third__item-right {
+    width: 350px;
+    height: 291px;
+    text-align: center;
+  }
+}
+
+@media only screen and(max-width:450px) {
+  .third {
+    padding: 95px 0 67px 0;
+  }
+
+  .third__item--heading {
+    margin-top: 50px;
+  }
+
+  .third__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+  }
+
+  .third__item-right {
+    text-align: center;
+  }
+
+  .img__first {
+    width: 340px;
+    height: 300px;
+  }
+
+  .img__second {
+    width: 350px;
+    height: 310px;
+  }
+
+  .img__third {
+    width: 350px;
+    height: 290px;
+  }
+}

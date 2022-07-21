@@ -1,0 +1,138 @@
+.header {
+  background-color: var(--bg-black);
+}
+
+.header__inner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item + .nav__item {
+  margin-left: 30px;
+}
+
+.nav__link {
+  line-height: 28px;
+  color: var(--clr-white);
+}
+
+.nav__link:hover {
+  color: var(--clr-white);
+  font-weight: 600;
+}
+
+.header__button {
+  margin-left: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__button--sign-in,
+.header__button--sign-up {
+  padding: 10px 24px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 4px;
+}
+
+.header__button--sign-in {
+  color: var(--clr-white);
+  background-color: transparent;
+  border: solid 2px rgb(188, 208, 229);
+}
+
+.header__button--sign-up {
+  color: var(--clr-white);
+  background-color: #02897a;
+  border: solid 2px #02897a;
+}
+
+.header__button--mode {
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.header__mode-img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.header__menu {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// .header__toggler-label {
+//   position: relative;
+//   display: none;
+// }
+
+// .header__toggler-input {
+//   display: none;
+// }
+
+// .header__toggler-label::before {
+//   position: absolute;
+//   content: "=";
+// }
+
+// .header__toggler-label::after {
+//   position: absolute;
+//   left: 0;
+//   display: none;
+//   content: "x";
+// }
+
+// .header__toggler-input {
+//   opacity: 0;
+// }
+
+// .toggle-div {
+//   display: none;
+// }
+
+// .header__toggler-input:checked ~ .header__toggler-label::before {
+//   display: none;
+// }
+
+// .header__toggler-input:checked ~ .header__toggler-label::after {
+//   display: block;
+// }
+
+// .header__toggler-input:checked ~ .toggle-div {
+//   display: block;
+// }
+
+@media only screen and (max-width: 920px) {
+  .header__navbar {
+    display: none;
+  }
+
+  .header__toggler-label {
+    display: block;
+  }
+
+  .header__toggler-input {
+    display: block;
+  }
+
+  .header__menu {
+    display: block;
+  }
+}

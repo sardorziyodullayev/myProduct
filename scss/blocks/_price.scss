@@ -1,0 +1,137 @@
+.price__heading {
+  margin: 0 auto;
+  max-width: 213px;
+  text-align: center;
+}
+
+.price__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+
+.price__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343d;
+}
+
+.price__list {
+  padding: 50px 0 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table {
+  width: 322px;
+  height: 456px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.table:hover {
+  color: #fff;
+  background-color: #02897a;
+}
+
+.table:hover span {
+  color: #fff;
+}
+
+.table__title {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+}
+
+.table:hover .table__title {
+  color: #fff;
+}
+
+.table:hover .table__text {
+  color: #fff;
+}
+
+.table:hover .table__link {
+  color: #02897a;
+  background-color: #fff;
+  border: none;
+}
+
+.table__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343d;
+}
+
+.table__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table__content p span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #02897a;
+}
+
+.table__content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #afafaf;
+}
+
+.table__span {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+
+.table__text {
+  margin-top: 16px;
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+
+.table__link {
+  padding: 11px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #02897a;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 996px) {
+  .price__list {
+    flex-direction: column;
+  }
+  .table {
+    margin-bottom: 32px;
+  }
+}

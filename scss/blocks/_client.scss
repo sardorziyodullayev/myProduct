@@ -1,0 +1,91 @@
+.client {
+  padding: 50px 0 157px 0;
+}
+
+.client__heading {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 537px;
+}
+
+.client__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+
+.client__text {
+  padding: 8px 0 50px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+
+.client__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.comment {
+  padding: 28px 26px 23px 26px;
+  width: 327px;
+  //   height: 236px;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.comment__text {
+  padding: 16px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.comment__information {
+  display: flex;
+  align-items: center;
+}
+
+.comment__information-img {
+  margin-right: 14px;
+}
+
+.comment__information-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+
+.comment__information-jobs {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+@media only screen and (max-width: 1030px) {
+  .client {
+    padding: 90px 0;
+  }
+
+  .client__list {
+    flex-direction: column;
+  }
+
+  .comment {
+    margin-bottom: 32px;
+  }
+}
